@@ -1,0 +1,57 @@
+body
+{
+  background-color: black;
+  color: azure;
+}
+.light
+{
+  background-color: rgb(197, 238, 241);;
+  color: black;
+  .heading{
+    color: blueviolet;
+  }
+  .hr{
+    border-color: blue;
+  }
+}
+.heading{
+  color: #66BFBF;
+}
+.button
+{
+  text-align: right;
+}
+.hr
+{
+  border-style: dotted none none none;
+  width: 10%;
+  border-color: aquamarine;
+  border-width: 5px;
+}
+img
+{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+body
+{
+  cursor: none; /* Hide the default cursor */
+}
+.cursor
+{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a9d2e6; /* Change the color as desired */
+  mix-blend-mode: difference; /* Optional: blending mode for the cursor */
+  pointer-events: none; /* Allow interaction with elements beneath */
+  transition: transform 0.2s ease-out;
+  transform: translate(-50%, -50%) scale(1); /* Initial scale of the cursor */
+}
+  
+.cursor:hover
+{
+  transform: translate(-50%, -50%) scale(1.5); /* Scale the cursor on hover */
+}
