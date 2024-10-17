@@ -3,6 +3,9 @@ body
   background-color: black;
   color: azure;
 }
+a {
+  color: #66BFBF;
+}
 .light
 {
   background-color: rgb(197, 238, 241);;
