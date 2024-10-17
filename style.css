@@ -4,26 +4,34 @@ body
   color: azure;
 }
 a:link {
-  color: #66BFBF;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: #66BFBF;
+  color: white;
   text-decoration: none; 
 }
 .light
 {
-  background-color: rgb(197, 238, 241);;
+  background-color: rgb(197, 238, 241);
   color: black;
-  .heading{
-    color: blueviolet;
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    text-decoration: none; 
+  }
+  h1, h3{
+    color: rgb(3, 43, 3);
   }
   .hr{
-    border-color: blue;
+    border-color: rgb(3, 43, 3);
   }
 }
-.heading{
+h1, h3{
   color: #66BFBF;
 }
 .button
@@ -36,12 +44,6 @@ a:visited {
   width: 10%;
   border-color: aquamarine;
   border-width: 5px;
-}
-img
-{
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
 }
 body
 {
